@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تصليح موبايلات وتوصيل – خدمتك الصح</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+    body {
+      font-family: 'Cairo', sans-serif, Arial, sans-serif;
+      background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+      color: #222;
+      margin: 0;
+      padding: 20px;
+      direction: rtl;
+      text-align: right;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 480px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 15px;
+      padding: 25px 30px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      position: relative;
+      overflow: hidden;
+    }
+    h1 {
+      color: #1a237e;
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 2.2rem;
+      animation: fadeInDown 1s ease forwards;
+      opacity: 0;
+    }
+    p.intro {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      animation: fadeIn 1.5s ease forwards;
+      opacity: 0;
+      color: #333;
+    }
+    ul.services {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 25px 0;
+      animation: fadeIn 2s ease forwards;
+      opacity: 0;
+    }
+    ul.services li {
+      background: #e3f2fd;
+      margin-bottom: 12px;
+      padding: 12px 15px;
+      border-radius: 10px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1rem;
+      color: #0d47a1;
+      box-shadow: 0 3px 8px rgba(13,71,161,0.1);
+      cursor: default;
+      transition: background 0.3s ease;
+    }
+    ul.services li:hover {
+      background: #bbdefb;
+    }
+    ul.services li img {
+      width: 24px;
+      height: 24px;
+    }
+    .contact {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      animation: fadeInUp 2.5s ease forwards;
+      opacity: 0;
+    }
+    .contact a {
+      background: #1a237e;
+      color: white;
+      text-decoration: none;
+      font-size: 1.3rem;
+      padding: 15px 0;
+      border-radius: 12px;
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(26,35,126,0.4);
+      transition: background 0.3s ease;
+    }
+    .contact a:hover {
+      background: #0d1564;
+    }
+    .contact a.whatsapp {
+      background: #25D366;
+      box-shadow: 0 5px 15px rgba(37,211,102,0.4);
+    }
+    .contact a.whatsapp:hover {
+      background: #1da851;
+    }
+    /* Animations */
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    /* Floating phone icon animation */
+    .phone-icon {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      width: 60px;
+      opacity: 0.1;
+      animation: float 4s ease-in-out infinite;
+      filter: drop-shadow(0 2px 2px rgba(26,35,126,0.15));
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="phone-icon" src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="هاتف">
+    <h1>عايز موبايلك يشتغل زي الفل؟</h1>
+    <p class="intro">مش لازم تقلق، إحنا هنا نصلحلك كل حاجة في موبايلك بسرعة وسعر مناسب، وكمان نوصللك الجهاز لحد باب بيتك!</p>
+    <ul class="services">
+      <li><img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" alt="شاشة"> تغيير شاشة موبايل</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/3505/3505151.png" alt="بطارية"> تغيير بطارية</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/833/833314.png" alt="سوفت وير"> حل مشاكل السوفت وير</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/2331/2331858.png" alt="توصيل"> توصيل سريع للموبايلات</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/833/833300.png" alt="أسعار"> أسعار تناسب الجميع</li>
+    </ul>
+    <p>عايز تتصل أو تبعتلي رسالة على الواتساب؟</p>
+    <div class="contact">
+      <a href="tel:+201552234886">📞 اتصل دلوقتي: 01552234886</a>
+      <a href="https://wa.me/201552234886" class="whatsapp">💬 ابعتلي على واتساب</a>
+    </div>
+  </div>
+
+</body></html>
